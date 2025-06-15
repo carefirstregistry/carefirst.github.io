@@ -1,11 +1,296 @@
-.servicesheader{
-    text-align: center;
-    font-size: 2rem;
+
+/*Domestic Referral Agency */
+
+.houskeepingjumbo{
+    background-image: url('../../Registries/Resources/Images/jumbotronimg.jpg');
 }
 
-.nursesservices{
-    margin: 4rem auto;
+.RAblock{
+    display: flex;
+
+    border-top: 1px solid #f76060;
+    border-bottom: 1px solid #f76060;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    background: radial-gradient(closest-corner, #f0f0f0, #FFF);
 }
+
+.domesticRA{
+    margin: 6rem auto 0 auto;
+    width: 53%;
+    padding: 1.5rem 2.5rem;
+}
+
+.RAblock img{
+    width: 20%;
+}
+
+.RAText h3{
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+.RAText{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    width: 65%;
+    align-items: center;
+}
+
+.topquestions{
+    margin-top: 6rem;
+}
+
+.q1flexstart{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 9rem;
+}
+
+.q2flexend{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+}
+
+.questiontitle{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-bottom: 1.75rem;
+}
+
+.questionanswer{
+    font-size: 1.3rem;
+    width: 84%;
+}
+
+.qblock{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 4rem 5rem;
+    filter: drop-shadow(0px 0px 5px #bcbcbc62);
+
+}
+
+.q1{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-right: 8rem;
+    background-color: #f5d3d3;
+}
+
+.q2{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-left: 8rem;
+    background-color: #dbebfb;
+}
+
+.hkimg{
+    width: 17%;
+    border-radius: 150px;
+    filter: drop-shadow(0px 0px 5px #bcbcbc62);
+}
+
+.faqsection{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.domesticfaqs{
+    margin: 9rem auto;
+}
+
+.faqtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .jumbotrontext h2 {
+        padding-bottom: 3rem;
+    }
+
+    .houskeepingjumbo{
+        background-position-x: -75rem;
+    }
+
+    .hkimg{
+        display: none;
+    }
+
+    .RAblock{
+        padding: 1.5rem 0;
+        width: 95%;
+    }
+
+    .RAText{
+        width: 95%;
+    }
+
+    .RAText h3{
+        margin-bottom: 1.5rem;
+    }
+
+    .RAblock h3{
+        width: 100%;
+    }
+
+    .RAblock img{
+        display: none;
+    }
+
+    .questionanswer{
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    .questiontitle{
+        font-size: 1.4rem;
+    }
+
+    .q1flexstart{
+        width: 95%;
+        margin-bottom: 6rem;
+    }
+
+    .q2flexend{
+        width: 95%;
+    }
+
+    .qblock{
+        padding: 3rem 1.5rem 3rem 3rem;
+        width: 100%;
+    }
+
+    .q1{
+        margin-right: 0;
+    }
+
+    .q2{
+        margin-left: 0;
+    }
+
+    .faqsection{
+        width: 100%;
+        margin: 6rem auto;
+    }
+
+    .accordion{
+        font-size: 1.2rem;
+    }
+
+}
+
+
+/*Nursing Registry */
+
+ul{
+    list-style-image: url('../../Registries/Resources/Images/Nurses/crossicon.png');
+
+}
+
+.RAblock p{
+    text-align: center;
+}
+
+.servlist li{
+    padding: .3rem 0;
+}
+
+.nursesjumbo{
+    background-image: url('../../Registries/Resources/Images/Nurses/nursesjumbo.jpg');
+}
+
+.NurseRA{
+    width: 73%;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.servicesheader{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2rem;
+    color: #df4040;
+}
+
+.servicesintro{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin:auto;
+}
+
+.servheart{
+    width: 12%;
+    margin: 5rem auto;
+}
+
+.servicesblock h3{
+    font-size: 1.6rem;
+    padding: 2rem 2rem 2.5rem 2rem;
+    text-align: center;
+}
+
+.servtitle{
+    text-align: center;
+    font-size: 2rem;
+    border: 1px solid #df4040;
+    border-bottom:none;
+    padding: 2rem 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-top-left-radius: 50px;
+    color: #df4040;
+}
+
+.servsection{
+    margin: 0 0 6rem auto;
+    border: 1px solid #df4040;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    filter: drop-shadow(0 0 .4rem rgba(0, 0, 0, .06));
+    background-color: white;
+}
+
+.servblockone{
+    border-bottom-left-radius: 95px;
+    background-color: #f760601d;
+    border-bottom: none;
+    border-left: none;
+}
+
+.servblocktwo{
+    border-bottom-right-radius: 100px;
+    background-color: #4444440f;;
+    border-left: 1px solid #df4040;
+    border-bottom: none;
+    border-right: none;
+}
+
+.wholeblock{
+    display: flex;
+    border-top: 1px solid #df4040;
+}
+
+
 
 .introtext{
     width: 50%;
@@ -13,7 +298,436 @@
     text-align: center;
 }
 
+.nursetypes{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+}
+
+.nursesblock{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 3rem 0;
+    border: 1px solid #f76060;
+    border-radius: 25px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));
+    width: 55%;
+    justify-content: center;
+}
+
+.nurselist li{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    padding: .4rem 0;
+}
+
+.nursesright{
+    background-color: #f760601d;
+}
+
+.nursesleft{
+    background-color: #eeeeee;;
+}
+
+.nursegement{
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
 
 
+.nursesblock h3{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    color: #df4040;
+}
+
+.nurserow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nursesubpic{
+    width: 20%;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));
+}
+
+@media only screen and (max-width: 1024px){
+    .servtitle{
+        margin: auto;
+        width: 100%;
+        
+    }
+
+    .servblockone{
+        margin: 0;
+        border-bottom: 0px solid white !important;
+    }
+
+    .servblocktwo{
+        border-bottom-left-radius: 50px !important;
+        border-bottom-right-radius: 50px !important;
+    }
+
+    .servicesblock{
+        border-radius: 0;
+        border: 1px solid #df4040;
+    }
+ 
+   
+
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px){
+
+    .NurseRA{
+        width: 100%;
+    }
+
+    .NurseRA p{
+        font-size: 1.2rem;
+    }
+
+    .nursesblock{
+        width: 85%;
+    }
+
+    .servheart{
+        width: 16%;
+        margin: 6rem auto;
+    }
+
+    .faqsection{
+        width: 100%;
+    }
+
+    .nursemiddle{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .nursesblock h3{
+        padding-bottom: 2.5rem;
+    }
+
+    .nursesubpic{
+        width: 33%;
+    }
+
+    .nurselist{
+        width: 50%;
+    }
+
+  
+
+    .servsection {
+        margin: 0 0 3rem auto;
+    }
+
+    .nursesblock{
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .nursesjumbo{
+        background-position-x: -25rem;
+    }
+
+    .nursegement{
+        margin: 0;
+    }
+
+    .servheart{
+        width: 30%;
+    }
+
+    .servicesheader{
+        padding-bottom: 0;
+    }
+
+    .servtitle{
+        font-size: 1.6rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .servicesblock{
+        width: 100%;
+        margin: auto;
+    }
+
+    .servmidpic{
+        margin: 2.5rem auto;
+        width: 82%;
+        border-radius: 15px;
+    }
+
+    .servsection{
+        margin: 0px 0 3rem auto;
+    }
+
+    .nursesblock{
+        width: 68%;
+        padding: 2rem 3rem;
+    }
+
+    .nursesblock h3{
+        font-size: 1.6rem;
+    }
+
+    .nursegment{
+        margin: 0 auto;
+    }
+
+    .nursemidpic{
+        margin: 2.5rem auto;
+    }
+
+}
+
+/* Caregivers */
+
+.caregivingjumbo{
+    background-image: url('../../Registries/Resources/Images/Caregiving/ServicesImages/caregiverjumbo.jpg');
+}
+
+.CaregiverRA{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.caregivervarieties{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    margin: 9rem auto;
+}
+
+.carerec{
+    width: 4%;
+    height: 3px;
+    background-color: #df404062;
+    border-radius: 15px;
+}
+
+.varietysvg{
+    width: 3.5%;
+    fill: #df4040d5;
+}
+
+.caretime{
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    background-color:#df4040;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 25px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.132));
+}
+
+.caregivingservice{
+    width: 35%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #eeeeee;
+    margin: 2rem 0;
+    border-radius: 25px;
+    border: 1px solid #df4040;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.132));
+}
+
+.careservices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cstext p{
+    font-size: 1.1rem;
+}
+
+.caregivingservices h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.caregivingservice img{
+    width: 24%;
+    border-radius: 50px;
+}
+
+.caregivingservice h3{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.cstext{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.carespecialties{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    border-radius: 25px;
+    border: 1px solid #df4040;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.132));
+    background-color: #eeeeee;
+    padding: 2rem;
+}
+
+.caregivingservices{
+    margin: 9rem auto;
+}
+
+.caregivingservices h2{
+    margin-bottom: 3rem;
+}
+
+.carespecialtieslists li{
+    font-size: 1.2rem;
+    padding: .3rem 0;
+}
+
+.carespecialties p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+.carespecialties h3{
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    width: 70%;
+    margin: auto;
+}
+
+.carespecialtieslists{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carespecialtiessection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin: 4rem auto;
+}
+
+.carespecialtiessection img{
+    width: 15%;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.132));
+    border-radius: 50px;
+}
+
+@media only screen and (min-width: 480px) {
+    .mobile{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .caregiverRA{
+        width: 75%;
+    }
+
+    .tabletdesktop {
+        display: none;
+    }
+
+    .carespecialties{
+        width: 85%;
+    }
+
+    .caretime{
+        width: 80%;
+        font-size: 1.4rem;
+        margin: 1.5rem;
+    }
+
+    .carerec{
+        display: none;
+    }
+
+    .varietysvg{
+        display: none;
+    }
+
+    .caregivervarieties {
+        flex-direction: column;
+        margin: 8rem auto;
+}
+
+    .caregivingservice{
+        width: 86%;
+        padding: 2rem .5rem;
+        flex-direction: column;
+    }
+
+    .caregivingservice img{
+        width: 37%;
+        border-radius: 25px;
+        margin-bottom: 2rem;
+    }
+
+    .cstext{
+        width: 90%;
+    }
+
+    .cstext h3{
+        text-align: center;
+    }
+
+    .cstext p{
+        text-align: center;
+    }
+
+    .carespecialtiessection img{
+        display: none;
+    }
+
+    .carespecialties h3{
+        width: 100%;
+    }
+
+    .carespecialtieslists{
+        justify-content: space-around;
+    }
+
+    .carespecialtieslists li{
+        font-size: 1rem;
+    }
+
+}
 
 

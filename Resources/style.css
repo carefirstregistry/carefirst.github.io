@@ -10,7 +10,7 @@ body{
     margin:0;
 }
 
-p, h1, h2, h3, h5, ul{
+p, h1, h2, h3, h4, h5, ul{
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0;
@@ -32,7 +32,7 @@ h5{
 
 p{
     font-size: 1.3rem;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 
@@ -66,7 +66,7 @@ header{
 }
 
 .menuright{
-    width: 50%;
+    width: 39%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -158,10 +158,8 @@ header{
         color:green
     }
 
-
-    .fa-lg {
-        line-height: 0;
-        vertical-align: 0;
+    .fa-services{
+        font-size: 1.4em !important;
     }
     
     .dropdown-content {
@@ -324,77 +322,126 @@ h1{
     width: 50%;
 }
 
-.services{
-    width: 85%;
-    border-radius: 50px;
-    margin: auto;
+.services h2{
+    font-size: 2.8rem;
+    text-align: center;
 }
 
-.services h2{
-    font-size: 2.5rem;
-    padding-bottom: 1rem;
+.serviceslist{
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.servicecontainer{
+    width: 38%;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
     text-align: center;
+    border-radius: 15px;
+    padding: 2rem 1.5rem;
+    border: 1px solid #df404062;
+    filter: drop-shadow(0px 0px 10px #aeaeae49);
+}
+
+.servicecontainer img{
+    width: 80%;
+    border-radius: 15px;
+}
+
+.servicecontainer h3{
+    font-size: 2rem;
+    margin: 1.5rem 0 1.25rem 0;
+    
+}
+
+.servicecontainer button{
+    font-size: 1.4rem;
+    background-color: #df4040;
+    color: white;
+    border: none;
+    padding: .6rem 1.5rem;
+    margin-top: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #df4040;
+}
+
+.servicecontainer button:hover{
+    color: #df4040;
+    background-color: white;
+    cursor:pointer;
 }
 
 
 .nurses{
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 3rem auto;
 }
 
-.nursesblock{
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
-    margin: 3rem 0;
-    border: 1px solid #f76060;
-    border-radius: 25px;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.015));
-    width: 55%;
-    justify-content: center;
-}
-
-.nurselist li{
-    font-size: 1.2rem;
-    line-height: 1.7rem;
-}
-
-.nursesright{
-
-    background-color: #f760601d;
-}
-
-.nursesleft{
-    background-color: #4444440f;
-}
-
-.nursegement{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.nursesblock h3{
-    font-size: 2rem;
-    padding-bottom: 1.5rem;
+.servicesh3{
+    font-size: 1.75rem;
+    margin: 2rem auto 0 auto;
+    border: 2px solid #df4040;
     color: #df4040;
+    background-color: #f0f0f0;
+    padding: 1rem 3rem;
+    border-radius: 150px;
 }
 
-.nurserow{
+
+
+
+.nursesection{
+    text-align: center;
+    padding: 6rem .5rem;
+    width:19%;
+    font-size: 1.7rem;
+    border-radius: 75px;
+    border: 2px solid #df4040;
+    color: white;
+}
+
+.domesticworkers{
+
+}
+
+
+.nursesection:hover{
+    filter: drop-shadow(1px 1px 15px  #e6b3b3);
+    color:#fbf3cd;
+}
+
+
+.rnbubble{
+    background-image: url('../Resources/HomeImages/SubSections/NursesSection/RNCircle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lvnbubble{
+    background-image: url('../Resources/HomeImages/SubSections/NursesSection/LVNCircle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cnabubble{
+    background-image: url('../Resources/HomeImages/SubSections/NursesSection/CNACircle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 }
 
-.nursesubpic{
-    width: 23%;
-    border-radius: 15px;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.015));
+.cnabubble{
+    background-image: url('../Resources/HomeImages/SubSections/NursesSection/CNACircle.png');
 }
-
 
 .midsection{
     display: flex;
@@ -503,9 +550,6 @@ h1{
 }
 
 
-
-
-
 .clientimg{
     width: 12%;
     border-radius: 250px;
@@ -548,42 +592,6 @@ h1{
     margin: 0 auto;
 }
 
-
-.servsection{
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    align-items: center;
-    justify-content: center;
-    border-top: none;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    margin: 3rem auto 3rem auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.063));
-}
-
-.wholeblock{
-    display: flex;
-    border: 1px solid #df4040;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-}
-
-.servtitle{
-    font-size: 1.8rem;
-    width: 99.85%;
-    padding: 2rem 0;
-    color: #df4040;
-    border: 1px solid #df4040;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
-    border-bottom: none;
-    text-align: center;
-}
-
 .servheart{
     width: 12%;
     rotate: 10.2deg;
@@ -594,6 +602,35 @@ h1{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.servpanel{
+    display:flex;
+    margin: auto;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+
+.domesticpanel{
+    background-image: url('../Resources/ServicesBGs/DomesticWorkers.jpg');
+    background-size: cover;
+
+}
+
+.panelright{
+    width: 65%;
+    padding-right: 3rem;
+}
+
+.panelright h3{
+    font-size: 2.3rem;
+    text-align: center;
+    color: white;
+}
+
+.servpanel img{
+    width: 20%;
+    border-radius: 30px;
 }
 
 .servpic1{
@@ -608,10 +645,6 @@ h1{
     display: flex;
 }
 
-.servblockone{
-    border-bottom-left-radius: 95px;
-    background-color: #f760601d;
-}
 
 .servsubpic{
     width: 35%;
@@ -619,11 +652,7 @@ h1{
 }
 
 
-.servblocktwo{
-    border-bottom-right-radius: 100px;
-    background-color: #4444440f;;
-    border-left: 1px solid #df4040;
-}
+
 
 .servicesblock{
     width: 50%;
@@ -679,29 +708,64 @@ h1{
 
 .accordionparent {
     width: 75%;
+    margin: auto;
+}
+
+.servicesaccordion{
+    background-color: rgb(238, 238, 238);
+    border: 2px solid #df4040;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    padding: 1.3rem 3rem;
+}
+
+.servicesparent{
+    width: 95%;
+    margin: 2rem auto;
 }
 
 
-.accordion {
-    background-color: #eee;
-    width: 70%;
+.text-arrow{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #df4040;
+}
+
+.invisiblearrow{
+    color: rgba(76, 175, 79, 0)
+}
+
+.faqsaccordion {
+    background-color: #e6e6e6;
     color: #444;
+    width: 70%;
+    justify-content: space-between;
+    padding: 18px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.accordion {
     cursor: pointer;
     font-family: var(--body-font);
     font-size: 1.3rem;
-    padding: 18px;
-    margin-bottom: 1rem;
     width: 100%;
-    border: none;
+
     text-align: left;
     outline: none;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.accordion:hover {
+.faqsaccordion:hover {
     background-color:#ffa09d;
+}
+
+.servicesaccordion:hover {
+    background-color:#f6f6f6;
 }
     
 .accordion i {
@@ -743,6 +807,11 @@ footer{
     font-size: .8rem;
 }
 
+.panel p{
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
 
 
 @media only screen and (min-width: 1025px) {
@@ -751,6 +820,10 @@ footer{
     }
 
     .mobile{
+        display: none;
+    }
+
+    .tablet{
         display: none;
     }
     
@@ -842,6 +915,10 @@ footer{
         display: none;
     }
 
+    .desktop-mobile{
+        display: none;
+    }
+
     .desktop{
         display: none;
     }
@@ -916,8 +993,6 @@ footer{
         padding-left: 3.5rem;
     }
 
-
-
     .map{
         width: 90%;
         justify-content: center;
@@ -950,6 +1025,22 @@ footer{
 
     .servicesblock h3{
         font-size: 1.9rem;
+    }
+
+    .services{
+        width: 100%;
+    }
+
+    .servicecontainer{
+        width: 39%;
+    }
+
+    .servicecontainer h3{
+        width: 82%;
+    }
+
+    .serviceslist{
+        width: 100%;
     }
 
     .servtitle{
@@ -1000,7 +1091,7 @@ footer{
     }
 
     p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .linklogo{
@@ -1008,6 +1099,10 @@ footer{
     }
 
     .tabletdesktop{
+        display: none;
+    }
+
+    .tablet{
         display: none;
     }
 
@@ -1118,6 +1213,7 @@ footer{
     .map{
         justify-content: center;
         width: 81%;
+        display: none;
     }
 
     .mapimg{
@@ -1170,6 +1266,10 @@ footer{
         border-radius: 50px;
     }
 
+    .servicecontainer{
+        width: 100%;
+    }
+
     .servicesblock h3{
         font-size: 1.4rem;
         padding: 2rem 0;
@@ -1197,6 +1297,7 @@ footer{
 
     .services{
         width: 95%;
+        margin-bottom: 12rem;
     }
 
     .wholeblock{
