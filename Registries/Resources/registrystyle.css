@@ -649,6 +649,58 @@ ul{
     border-radius: 50px;
 }
 
+@media only screen and (min-width: 480px) and (max-width: 1024px){
+
+    .jumbotron{
+        height: 80vh;
+    }
+
+    .jumbotrontext h2{
+        font-size: 2.5rem;
+    }
+
+    .jumbocall{
+        width: 30%;
+        padding: 0.7rem 0;
+        font-size: 1.2rem;
+    }
+
+    .caregivervarieties{
+        width: 100%;
+    }
+
+    .carespecialties{
+        width: 85%;
+    }
+
+    .caregiverRA{
+        width: 80%;
+    }
+
+    .caregivingservice{
+        flex-direction: column;
+    }
+
+    .cstext{
+        width: 95%;
+    }
+
+    .caregivingservice img{
+        width: 35%;
+        border-radius: 25px;
+        margin-bottom: 2rem;
+    }
+
+    .cstext h3{
+        text-align: center;
+    }
+
+    .cstext p{
+        text-align: center;
+    }
+
+}
+
 @media only screen and (min-width: 480px) {
     .mobile{
         display: none;
@@ -659,6 +711,10 @@ ul{
 
     .caregiverRA{
         width: 75%;
+    }
+
+    .caregivingjumbo{
+        background-position-x: -62rem;
     }
 
     .tabletdesktop {
@@ -727,7 +783,207 @@ ul{
     .carespecialtieslists li{
         font-size: 1rem;
     }
+}
+
+/* Wellness */
+
+.wellnessjumbo{
+    background-image: url('../../Registries/Resources/Images/Wellness/wellnessjumbo.jpg');
+}
+
+.wellnessheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wellnessRA{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 4rem auto;
+    width: 55%;
+    display: flex;
+}
+
+.wellnessheart{
+    margin:auto;
+    rotate: 10.2deg;
+    width: 10%;
+}
+
+.wellness h2{
+    text-align: center;
+    font-size: 2rem;
+    width: 70%;
+    margin: auto;
+    padding: 2rem 1rem;
+
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.024));
+}
+
+.wellness{
+    margin-top: 6rem;
+    border-top: 1px solid #df4040;
+    border-bottom: 1px solid #df4040;
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(249, 249, 249));
+    width: 85%;
+    margin: 6rem auto;
+    padding: 1.5rem;
+    border-radius: 50px;
+}
+
+.activityblock{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 7rem auto;
+}
+
+.imgcontainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.132));
+}
+
+.activityblock img{
+    width: 35%;
+    border-radius: 75px;
+}
+
+.activitytext{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem 4rem;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.132));
+}
+
+.activitytext h3{
+    font-size: 1.8rem;
+}
+
+.redtext{
+    background-color: #f5d3d3;
+    border: 1px solid #df4040;
+    border-radius: 25px;
+}
+
+.bluetext{
+    background-color: #DBEBFB;
+    border: 1px solid #3A9ADD;
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px){
+
+    .wellness{
+        width: 95%;
+        margin: 4rem auto;
+        padding: 3rem 0;
+    }
+
+    .wellness h2{
+        padding: 0;
+    }
+
+    .wellnessjumbo{
+        background-position-x: -37rem;
+    }
+
+    .wellnessRA{
+        width: 65%;
+    }
+
+    .activitytext{
+        text-align: center;
+    }
+
+    .activityblock img {
+        border-radius: 71px;
+        width: 61%;
+    }
+
+    .imgcontainer{
+        width: 30%;
+        align-items: center;
+    }
+
+    .activityblock{
+        margin: 6rem auto;
+    }
+
+    .activitytext h3{
+        padding-bottom: 1rem;
+    }
+
+    .activitytext{
+        width: 55%;
+        padding: 2rem 3rem;
+    }
 
 }
 
+@media only screen and (max-width: 480px) {
 
+    .wellnessjumbo{
+        background-position-x: -65rem;
+    }
+
+    .activitytext{
+        text-align: center;
+    }
+
+    .wellnessRA{
+        width: 75%;
+    }
+
+    .wellness{
+        margin: 4rem auto;
+        width: 95%;
+        padding: 3rem 0;
+    }
+
+    .wellnessheart{
+        width: 31%;
+    }
+
+    .wellness h2{
+        width: 94%;
+        padding: 0;
+        font-size: 1.6rem;
+    }
+
+    .activityblock{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 5rem auto;
+    }
+
+    .activityblock img {
+        border-radius: 30px;
+        margin-bottom: 4rem;
+        width: 50%;
+    }
+
+    .activitytext{
+        width: 75%;
+        padding: 1.5rem 2rem;
+    }
+
+    .activitytext h3{
+        padding-bottom: 1rem;
+    }
+
+    .blueblock{
+        flex-direction: column-reverse !important; 
+    }
+
+    .imgcontainer{
+        width: 100%;
+    }
+
+}

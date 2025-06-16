@@ -88,6 +88,10 @@ header{
     color: black;
 }
 
+.servicesmenu:hover{
+    cursor: default !important;
+}
+
 .dropdown {
     width: 40%;
   }
@@ -212,7 +216,7 @@ header{
 
 .menucall{
     width: 100%;
-    padding: .65rem 2rem;
+    padding: .65rem 1rem;
     font-size: 1.1rem;
 }
 
@@ -454,57 +458,6 @@ h1{
     display: flex;
     justify-content: space-between;
     width: 100%;
-}
-
-.wellness{
-    margin-top: 8rem;
-
-}
-
-.wellnesses{
-    display:flex;
-    justify-content: space-evenly;
-}
-
-.wellnesscontent{
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-    align-items: center;
-}
-
-.wellnesscontent img{
-    border-radius: 15px;
-}
-
-.wellnesscontent img{
-    width: 25%;
-    position:relative;
-    z-index: 10;
-    left: 2rem;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.015));
-}
-
-.wellnesstext{
-    width: 40%;
-    background-color: #c0def995;
-    padding: 2rem;
-    padding-left: 3.5rem;
-    border-radius: 25px;
-    border: 1px solid #3b9ade;
-}
-
-.wellnesstext ul{
-    padding-top: 2rem;
-    padding-left: 2rem;
-    line-height: 2.3rem;
-
-}
-
-.wellnesstext li{
-    font-size: 1.3rem;
-    font-weight: 1000;
-
 }
 
 .map{
