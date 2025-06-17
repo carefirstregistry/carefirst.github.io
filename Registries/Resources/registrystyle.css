@@ -329,7 +329,7 @@ ul{
 }
 
 .nursesleft{
-    background-color: #eeeeee;;
+    background-color: #f7f7f7;;
 }
 
 .nursegement{
@@ -551,7 +551,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    background-color: #eeeeee;
+    background-color: #f7f7f7;
     margin: 2rem 0;
     border-radius: 25px;
     border: 1px solid #df4040;
@@ -598,7 +598,7 @@ ul{
     border-radius: 25px;
     border: 1px solid #df4040;
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.132));
-    background-color: #eeeeee;
+    background-color: #f7f7f7;
     padding: 2rem;
 }
 
